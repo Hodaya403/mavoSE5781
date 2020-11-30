@@ -121,10 +121,6 @@ public class Point3D {
 
     @Override
     public String toString() {
-        return "(" +
-                _x +
-                ", " + _y +
-                ", " + _z +
-                ')';
+        return  String.format("[%f,%f,%f]",_x,_y,_z) ;
     }
 }
